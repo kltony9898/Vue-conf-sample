@@ -10,7 +10,7 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
-      name: "vueConfFormComponents",
+      name: "vue-conf-form-components",
       fileName: (format) => `vue-conf-form-components.${format}.js`,
       formats: ["es", "cjs", "iife"],
     },
