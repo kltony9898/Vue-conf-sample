@@ -1,0 +1,50 @@
+{
+  "name": "vue-conf-form-components",
+  "version": "0.0.0",
+  "description": "Mike 的 Vue UI 框架",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch": "vite build --watch",
+    "preview": "vite preview",
+    "push": "git push && npm publish"
+  },
+  "type": "module",
+  "main": "dist/vue-conf-form-components.cjs.js",
+  "module": "dist/vue-conf-form-components.es.js",
+  "unpkg": "dist/vue-conf-form-components.iife.js",
+  "files": [
+    "dist"
+  ],
+  "author": "ashe <https://github.com/kltony9898/> (https://github.com/kltony9898/)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kltony9898/vue-conf-form-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kltony9898/vue-conf-form-components/issues"
+  },
+  "homepage": "https://github.com/kltony9898/vue-conf-form-components",
+  "dependencies": {
+    "@unocss/reset": "^0.53.6",
+    "@vueuse/core": "^10.2.1",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@unocss/preset-attributify": "^0.53.6",
+    "@unocss/preset-uno": "^0.53.6",
+    "@unocss/preset-wind": "^0.53.6",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "unocss": "^0.53.6",
+    "vite": "^4.3.9"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "vue3",
+    "vite",
+    "components",
+    "ui"
+  ]
+}
