@@ -1,6 +1,6 @@
 {
   "name": "vue-conf-form-components",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "我們跑vue conf工作坊的東東",
   "scripts": {
     "dev": "vite",
