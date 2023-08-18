@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pure table example</title>
+    <link rel="stylesheet" href="../dist/index.css" />
+  </head>
+  <body>
+    <div id="app" style="padding: 10px">
+      <f-checkbox-clear :data="data" :cur-value="value" @update="(val) => value = val "></f-checkbox-clear>
+    </div>
+    <script type="importmap">
+      {
+        "imports": {
+          "vue": "https://cdnjs.cloudflare.com/ajax/libs/vue/3.2.41/vue.esm-browser.prod.js"
+        }
+      }
+    </script>
+    <script type="module">
+      import { createApp, ref } from "vue";
+      import { FCheckboxClear } from "../dist/vue-conf-form-components.es.js";
+      createApp({
+        components: {
+          FCheckboxClear,
+        },
+        setup() {
+          const value = ref([])
+          const data = ['選項一', '選項二', '選項三', '選項四', '選項五']
+          return {
+            data,
+            value
+          };
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>

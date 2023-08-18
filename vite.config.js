@@ -10,8 +10,8 @@ export default defineConfig({
     cssCodeSplit: true,
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
-      name: "MikeUi",
-      fileName: (format) => `mike-vue-ui.${format}.js`,
+      name: "vueConfFormComponents",
+      fileName: (format) => `vue-conf-form-components.${format}.js`,
       formats: ["es", "cjs", "iife"],
     },
     rollupOptions: {
